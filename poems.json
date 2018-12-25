@@ -1,52 +1,966 @@
 {
   "poems":[
     {
+      "title":"A Ball Of Snow",
+      "author":"Matsuo Basho",
       "lines":[
-        "The first morning:",
-        "not a speck of dust on",
-        "the desk kana"
+        "you make the fire",
+        "and I’ll show you something wonderful:",
+        "a big ball of snow!"
       ]
     },
     {
+      "title":"A Bee",
+      "author":"Matsuo Basho",
       "lines":[
-        "O-sagarl ya",
-        "Slanted umbrellas",
-        "meet on a shrine visit."
+        "A bee",
+        "staggers out",
+        "of the peony."
       ]
     },
     {
+      "title":"A Caterpillar",
+      "author":"Matsuo Basho",
       "lines":[
-        "To tie the obi,",
-        "the back was turned kerl",
-        "First mirror."
+        "A caterpillar,",
+        "this deep in fall--",
+        "still not a butterfly."
       ]
     },
     {
+      "title":"A Cicada Shell",
+      "author":"Matsuo Basho",
       "lines":[
-        "Yome-ga-kimi's",
-        "sound; as it grows later,",
-        "the snow's voice."
+        "A cicada shell;",
+        "it sang itself",
+        "utterly away."
       ]
     },
     {
+      "title":"A Cold Rain Starting",
+      "author":"Matsuo Basho",
       "lines":[
-        "Wave shadows ya",
-        "Fish eyes too are",
-        "jewelled Spring."
+        "A cold rain starting",
+        "And no hat --",
+        "So?"
       ]
     },
     {
+      "title":"A Cool Fall Night",
+      "author":"Matsuo Basho",
       "lines":[
-        "Horal's",
-        "big prawn they're afraid of.",
-        "the children kana"
+        "At a hermitage:",
+        "A cool fall night--",
+        "getting dinner, we peeled eggplants, cucumbers."
       ]
     },
     {
+      "title":"A Cuckoo Cries",
+      "author":"Matsuo Basho",
       "lines":[
-        "The year's Jewel ya",
-        "Kachlkachl Ilountain's",
-        ""
+        "a cuckoo cries",
+        "and through a thicket of bamboo",
+        "the late moon shines"
+      ]
+    },
+    {
+      "title":"A Field Of Cotton",
+      "author":"Matsuo Basho",
+      "lines":[
+        "A field of cotton--",
+        "as if the moon",
+        "had flowered."
+      ]
+    },
+    {
+      "title":"A Man Infirm",
+      "author":"Matsuo Basho",
+      "lines":[
+        "A man, infirm",
+        "With age, slowly sucks",
+        "A fish bone."
+      ]
+    },
+    {
+      "title":"A Monk Sips Morning Tea",
+      "author":"Matsuo Basho",
+      "lines":[
+        "A monk sips morning tea,",
+        "it's quiet,",
+        "the chrysanthemum's flowering."
+      ]
+    },
+    {
+      "title":"A Snowy Morning",
+      "author":"Matsuo Basho",
+      "lines":[
+        "A snowy morning--",
+        "by myself,",
+        "chewing on dried salmon."
+      ]
+    },
+    {
+      "title":"A Strange Flower",
+      "author":"Matsuo Basho",
+      "lines":[
+        "a strange flower",
+        "for birds and butterflies",
+        "the autumn sky"
+      ]
+    },
+    {
+      "title":"A Weathered Skeleton",
+      "author":"Matsuo Basho",
+      "lines":[
+        "A weathered skeleton",
+        "in windy fields of memory,",
+        "piercing like a knife"
+      ]
+    },
+    {
+      "title":"A Wild Sea",
+      "author":"Matsuo Basho",
+      "lines":[
+        "A wild seaIn the distance over Sado",
+        "The Milky Way",
+        "Matsuo Basho"
+      ]
+    },
+    {
+      "title":"All the day long",
+      "author":"Matsuo Basho",
+      "lines":[
+        "All the day longyet not long enough for the skylark,",
+        "singing, singing.",
+        "Matsuo Basho"
+      ]
+    },
+    {
+      "title":"An Old Pond",
+      "author":"Matsuo Basho",
+      "lines":[
+        "old pond.....",
+        "a frog leaps in",
+        "water's sound"
+      ]
+    },
+    {
+      "title":"As They Begin To Rise Again",
+      "author":"Matsuo Basho",
+      "lines":[
+        "As they begin to rise again",
+        "Chrysanthemums faintly smell,",
+        "After the flooding rain"
+      ]
+    },
+    {
+      "title":"Autumn Moonlight",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Autumn moonlight--",
+        "a worm digs silently",
+        "into the chestnut."
+      ]
+    },
+    {
+      "title":"Awake At Night",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Awake at night--",
+        "the sound of the water jar",
+        "cracking in the cold."
+      ]
+    },
+    {
+      "title":"Basho's Death Poem",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Sick on my journey,",
+        "only my dreams will wander",
+        "these desolate moors"
+      ]
+    },
+    {
+      "title":"Bitter–tasting Ice —",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Kori nigaku enso ga nodo o uruoseri",
+        "Bitter–tasting ice —",
+        "Just enough to wet the throat Of a sewer rat."
+      ]
+    },
+    {
+      "title":"Blowing Stones",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Blowing stones",
+        "along the road on Mount Asama,",
+        "the autumn wind."
+      ]
+    },
+    {
+      "title":"Bush Warbler",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Bush warbler:",
+        "shits on the rice cakes",
+        "on the porch rail."
+      ]
+    },
+    {
+      "title":"Bush-Clover Flowers",
+      "author":"Matsuo Basho",
+      "lines":[
+        "bush-clover flowers -",
+        "they sway but do not drop",
+        "their beads of dew"
+      ]
+    },
+    {
+      "title":"But For A Woodpecker",
+      "author":"Matsuo Basho",
+      "lines":[
+        "But for a woodpecker",
+        "tapping at a post, no sound",
+        "at all in the house"
+      ]
+    },
+    {
+      "title":"By the old temple",
+      "author":"Matsuo Basho",
+      "lines":[
+        "By the old temple,",
+        "peach blossoms;",
+        "a man treading rice."
+      ]
+    },
+    {
+      "title":"Cedar umbrellas",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Cedar umbrellas, off",
+        "to Mount Yoshimo for",
+        "the cherry blossoms."
+      ]
+    },
+    {
+      "title":"Chilling Autumn Rains",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Chilling autumn rains",
+        "curtain Mount Fuji, then make it",
+        "more beautiful to see"
+      ]
+    },
+    {
+      "title":"Clouds",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Clouds -",
+        "a chance to dodge",
+        "moonviewing."
+      ]
+    },
+    {
+      "title":"Cold As It Was",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Cold as it was",
+        "We felt secure sleeping together",
+        "In the same room."
+      ]
+    },
+    {
+      "title":"Cold Night: The Wild Duck",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Cold night: the wild duck,",
+        "sick, falls from the sky",
+        "and sleeps awhile."
+      ]
+    },
+    {
+      "title":"Coolness Of The Melons",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Coolness of the melons",
+        "flecked with mud",
+        "in the morning dew."
+      ]
+    },
+    {
+      "title":"Crossing Long Fields",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Crossing long fields,",
+        "frozen in its saddle,",
+        "my shadow creeps by"
+      ]
+    },
+    {
+      "title":"Deep Into Autumn",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Deep into autumn",
+        "and this caterpillar",
+        "still not a butterfly"
+      ]
+    },
+    {
+      "title":"Don'T Imitate Me",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Don't imitate me;",
+        "it's as boring",
+        "as the two halves of a melon."
+      ]
+    },
+    {
+      "title":"Eaten Alive",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Eaten alive by",
+        "lice and fleas -- now the horse",
+        "beside my pillow pees"
+      ]
+    },
+    {
+      "title":"Even That Old Horse",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Even that old horse",
+        "is something to see this",
+        "snow-covered morning"
+      ]
+    },
+    {
+      "title":"First Day Of Spring",
+      "author":"Matsuo Basho",
+      "lines":[
+        "First day of spring--",
+        "I keep thinking about",
+        "the end of autumn."
+      ]
+    },
+    {
+      "title":"First Snow",
+      "author":"Matsuo Basho",
+      "lines":[
+        "First snow",
+        "falling",
+        "on the half-finished bridge."
+      ]
+    },
+    {
+      "title":"First Winter Rain",
+      "author":"Matsuo Basho",
+      "lines":[
+        "First winter rain--",
+        "even the monkey",
+        "seems to want a raincoat."
+      ]
+    },
+    {
+      "title":"Fleas, Lice",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Fleas, lice,",
+        "a horse peeing",
+        "near my pillow."
+      ]
+    },
+    {
+      "title":"Flower",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Flower",
+        "under harvest sun - stranger",
+        "To bird, butterfly."
+      ]
+    },
+    {
+      "title":"From Time To Time",
+      "author":"Matsuo Basho",
+      "lines":[
+        "From time to time",
+        "The clouds give rest",
+        "To the moon beholders.."
+      ]
+    },
+    {
+      "title":"Haiku",
+      "author":"Matsuo Basho",
+      "lines":[
+        "scent of plum blossoms",
+        "on the misty mountain path",
+        "a big rising sun"
+      ]
+    },
+    {
+      "title":"Heat Waves Shimmering",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Heat waves shimmering",
+        "one or two inches",
+        "above the dead grass."
+      ]
+    },
+    {
+      "title":"How Admirable",
+      "author":"Matsuo Basho",
+      "lines":[
+        "How admirable!",
+        "to see lightning and not think",
+        "life is fleeting."
+      ]
+    },
+    {
+      "title":"How Wild The Sea Is",
+      "author":"Matsuo Basho",
+      "lines":[
+        "How wild the sea is,",
+        "and over Sado Island,",
+        "the River of Heaven"
+      ]
+    },
+    {
+      "title":"Husking Rice",
+      "author":"Matsuo Basho",
+      "lines":[
+        "husking rice",
+        "a child squints up",
+        "to view the moon"
+      ]
+    },
+    {
+      "title":"I Like To Wash",
+      "author":"Matsuo Basho",
+      "lines":[
+        "I like to wash,",
+        "the dust of this world",
+        "In the droplets of dew."
+      ]
+    },
+    {
+      "title":"I'M A Wanderer",
+      "author":"Matsuo Basho",
+      "lines":[
+        "I'm a wanderer",
+        "so let that be my name –",
+        "the first winter rain"
+      ]
+    },
+    {
+      "title":"Long Conversations",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Long conversations",
+        "beside blooming irises -",
+        "joys of life on the road"
+      ]
+    },
+    {
+      "title":"Midfield",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Midfield,",
+        "attached to nothing,",
+        "the skylark singing."
+      ]
+    },
+    {
+      "title":"Moonlight Slanting",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Moonlight slanting",
+        "through the bamboo grove;",
+        "a cuckoo crying."
+      ]
+    },
+    {
+      "title":"Morning And Evening",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Morning and evening",
+        "Someone waits at Matsushima!",
+        "One-sided love"
+      ]
+    },
+    {
+      "title":"None Is Travelling",
+      "author":"Matsuo Basho",
+      "lines":[
+        "None is travelling",
+        "Here along this way but I,",
+        "This autumn evening."
+      ]
+    },
+    {
+      "title":"Now the swinging bridge",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Now the swinging bridge",
+        "is quieted with creepers",
+        "like our tendrilled life"
+      ]
+    },
+    {
+      "title":"On Buddha's Deathday",
+      "author":"Matsuo Basho",
+      "lines":[
+        "On Buddha's deathday,",
+        "wrinkled tough old hands pray –",
+        "the prayer beads' sound"
+      ]
+    },
+    {
+      "title":"On New Year's Day",
+      "author":"Matsuo Basho",
+      "lines":[
+        "On New Year's Day",
+        "each thought a loneliness",
+        "as winter dusk descends"
+      ]
+    },
+    {
+      "title":"On The Cow Shed",
+      "author":"Matsuo Basho",
+      "lines":[
+        "On the cow shed",
+        "A hard winter rain;",
+        "Cock crowing."
+      ]
+    },
+    {
+      "title":"On The White Poppy",
+      "author":"Matsuo Basho",
+      "lines":[
+        "On the white poppy,",
+        "a butterfly’s torn wing",
+        "is a keepsake"
+      ]
+    },
+    {
+      "title":"On This Road",
+      "author":"Matsuo Basho",
+      "lines":[
+        "On this road",
+        "where nobody else travels",
+        "autumn nightfall"
+      ]
+    },
+    {
+      "title":"Passing Through The World",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Passing through the world",
+        "Indeed this is just",
+        "Sogi's rain shelter"
+      ]
+    },
+    {
+      "title":"Petals Of The Mountain Rose",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Petals of the mountain rose",
+        "Fall now and then,",
+        "To the sound of the waterfall?"
+      ]
+    },
+    {
+      "title":"Scarecrow In The Hillock",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Scarecrow in the hillock",
+        "Paddy field --",
+        "How unaware! How useful."
+      ]
+    },
+    {
+      "title":"Shaking The Grave",
+      "author":"Matsuo Basho",
+      "lines":[
+        "shaking the grave",
+        "my weeping voice",
+        "autumn wind"
+      ]
+    },
+    {
+      "title":"Sleep On Horseback",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Sleep on horseback,",
+        "The far moon in a continuing dream,",
+        "Steam of roasting tea."
+      ]
+    },
+    {
+      "title":"Souls' Festival",
+      "author":"Matsuo Basho",
+      "lines":[
+        "souls' festival",
+        "today also there is smoke",
+        "from the crematory"
+      ]
+    },
+    {
+      "title":"Spring Rain",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Spring rain",
+        "leaking through the roof",
+        "dripping from the wasps' nest."
+      ]
+    },
+    {
+      "title":"Staying At An Inn",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Staying at an inn",
+        "where prostitutes are also sleeping--",
+        "bush clover and the moon."
+      ]
+    },
+    {
+      "title":"Stillness",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Stillness--",
+        "the cicada's cry",
+        "drills into the rocks."
+      ]
+    },
+    {
+      "title":"Taking A Nap",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Taking a nap,",
+        "feet planted",
+        "against a cool wall."
+      ]
+    },
+    {
+      "title":"Teeth Sensitive To The Sand",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Teeth sensitive to the sand",
+        "in salad greens--",
+        "I'm getting old."
+      ]
+    },
+    {
+      "title":"Temple Bells Die Out",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Temple bells die out.",
+        "The fragrant blossoms remain.",
+        "A perfect evening!"
+      ]
+    },
+    {
+      "title":"The Banana Tree",
+      "author":"Matsuo Basho",
+      "lines":[
+        "The banana tree",
+        "blown by winds pours raindrops",
+        "into the bucket"
+      ]
+    },
+    {
+      "title":"The Butterfly",
+      "author":"Matsuo Basho",
+      "lines":[
+        "The butterfly is perfuming",
+        "It's wings in the scent",
+        "Of the orchid."
+      ]
+    },
+    {
+      "title":"The Clouds Come And Go",
+      "author":"Matsuo Basho",
+      "lines":[
+        "The clouds come and go,",
+        "providing a rest for all",
+        "the moon viewers"
+      ]
+    },
+    {
+      "title":"The Dragonfly",
+      "author":"Matsuo Basho",
+      "lines":[
+        "The dragonfly",
+        "can't quite land",
+        "on that blade of grass."
+      ]
+    },
+    {
+      "title":"The First Snow",
+      "author":"Matsuo Basho",
+      "lines":[
+        "The first snow",
+        "the leaves of the daffodil",
+        "bending together"
+      ]
+    },
+    {
+      "title":"The Morning Glories",
+      "author":"Matsuo Basho",
+      "lines":[
+        "The morning glories",
+        "bloom, securing the gate",
+        "in the old fence"
+      ]
+    },
+    {
+      "title":"The Morning Glory Also",
+      "author":"Matsuo Basho",
+      "lines":[
+        "The morning glory also",
+        "turns out",
+        "not to be my friend."
+      ]
+    },
+    {
+      "title":"The Oak Tree",
+      "author":"Matsuo Basho",
+      "lines":[
+        "The oak tree:",
+        "not interested",
+        "in cherry blossoms."
+      ]
+    },
+    {
+      "title":"The Petals Tremble",
+      "author":"Matsuo Basho",
+      "lines":[
+        "The petals tremble",
+        "on the yellow mountain rose –",
+        "roar of the rapids"
+      ]
+    },
+    {
+      "title":"The Shallows",
+      "author":"Matsuo Basho",
+      "lines":[
+        "The shallows –",
+        "a crane’s thighs splashed",
+        "in cool waves"
+      ]
+    },
+    {
+      "title":"The She Cat",
+      "author":"Matsuo Basho",
+      "lines":[
+        "The she cat -",
+        "Grown thin",
+        "From love and barley."
+      ]
+    },
+    {
+      "title":"The Squid Seller's Call",
+      "author":"Matsuo Basho",
+      "lines":[
+        "The squid seller's call",
+        "mingles with the voice",
+        "of the cuckoo."
+      ]
+    },
+    {
+      "title":"The Warbler Sings",
+      "author":"Matsuo Basho",
+      "lines":[
+        "the warbler sings",
+        "among new shoots of bamboo",
+        "of coming old age"
+      ]
+    },
+    {
+      "title":"The Whole Family",
+      "author":"Matsuo Basho",
+      "lines":[
+        "the whole family",
+        "all with white hair and canes",
+        "visiting graves"
+      ]
+    },
+    {
+      "title":"The Winter Leeks",
+      "author":"Matsuo Basho",
+      "lines":[
+        "The winter leeks",
+        "Have been washed white --",
+        "How cold it is!"
+      ]
+    },
+    {
+      "title":"The Winter Storm",
+      "author":"Matsuo Basho",
+      "lines":[
+        "The winter storm",
+        "Hid in the bamboo grove",
+        "And quieted away."
+      ]
+    },
+    {
+      "title":"This First Fallen Snow",
+      "author":"Matsuo Basho",
+      "lines":[
+        "This first fallen snow",
+        "is barely enough to bend",
+        "the jonquil leaves"
+      ]
+    },
+    {
+      "title":"This Old Village",
+      "author":"Matsuo Basho",
+      "lines":[
+        "This old village--",
+        "not a single house",
+        "without persimmon trees."
+      ]
+    },
+    {
+      "title":"Tremble Oh My Gravemound",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Tremble, oh my gravemound,",
+        "in time my cries will be",
+        "only this autumn wind"
+      ]
+    },
+    {
+      "title":"Under My Tree-Roof",
+      "author":"Matsuo Basho",
+      "lines":[
+        "under my tree-roof",
+        "slanting lines of april rain",
+        "separate to drops"
+      ]
+    },
+    {
+      "title":"Ungraciously",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Ungraciously, under",
+        "a great soldier's empty helmet,",
+        "a cricket sings"
+      ]
+    },
+    {
+      "title":"Untitled",
+      "author":"Matsuo Basho",
+      "lines":[
+        "The summer grasses",
+        "All that remains",
+        "Of brave soldiers dreams"
+      ]
+    },
+    {
+      "title":"What Fish Feel",
+      "author":"Matsuo Basho",
+      "lines":[
+        "What fish feel,",
+        "birds feel, I don't know--",
+        "the year ending."
+      ]
+    },
+    {
+      "title":"When The Winter Chrysanthemums Go",
+      "author":"Matsuo Basho",
+      "lines":[
+        "When the winter chrysanthemums go,",
+        "there's nothing to write about",
+        "but radishes."
+      ]
+    },
+    {
+      "title":"Winter Downpour",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Winter downpour -",
+        "even the monkey",
+        "needs a raincoat."
+      ]
+    },
+    {
+      "title":"Winter Garden",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Winter garden,",
+        "the moon thinned to a thread,",
+        "insects singing."
+      ]
+    },
+    {
+      "title":"Winter Seclusion",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Winter seclusion –",
+        "sitting propped against",
+        "the same worn post"
+      ]
+    },
+    {
+      "title":"Winter Solitude",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Winter solitude--",
+        "in a world of one color",
+        "the sound of wind."
+      ]
+    },
+    {
+      "title":"With A Warbler",
+      "author":"Matsuo Basho",
+      "lines":[
+        "With a warbler for",
+        "a soul, it sleeps peacefully,",
+        "this mountain willo"
+      ]
+    },
+    {
+      "title":"With Every Gust Of Wind",
+      "author":"Matsuo Basho",
+      "lines":[
+        "With every gust of wind,",
+        "the butterfly changes its place",
+        "on the willow."
+      ]
+    },
+    {
+      "title":"Won't You Come And See",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Won't you come and see",
+        "loneliness? Just one leaf",
+        "from the kiri tree."
+      ]
+    },
+    {
+      "title":"Wrapping Dumplings",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Wrapping dumplings in",
+        "bamboo leaves, with one finger",
+        "she tidies her hair"
+      ]
+    },
+    {
+      "title":"Wrapping The Rice Cakes",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Wrapping the rice cakes,",
+        "with one hand",
+        "she fingers back her hair."
+      ]
+    },
+    {
+      "title":"Year’s End,",
+      "author":"Matsuo Basho",
+      "lines":[
+        "Year’s end, all",
+        "corners of this",
+        "floating world, swept."
       ]
     }
   ]

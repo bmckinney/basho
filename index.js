@@ -20,16 +20,14 @@ if ('undefined' !== typeof tessel.port) {
             button.read(function (err, value) {
                 // up (off)
                 if (value === 0) {
-                    console.log('off');
                     pressed = false;
-                    // down (on)
+                // down (on)
                 } else if (value === 1) {
-                    // console.log('on');
                     // only fire press once
                     if (!pressed) {
                         pressed = true;
-                        console.log('pressed.');
-                        print(randomPoem());
+                        p = randomPoem();
+                        print(p);
                     }
                 }
             });
@@ -39,34 +37,29 @@ if ('undefined' !== typeof tessel.port) {
 
 function randomPoem() {
     var poemCount = config.poems.length;
-    console.log('poems', poemCount);
     var randomPoem = rando(1, poemCount);
-    console.log('random', randomPoem);
-    console.log('random poem', config.poems[randomPoem-1]);
     return config.poems[randomPoem-1];
 }
 
 function print(poem) {
 
     printer = thermalprinter.use(tessel.port.A);
-    printer.reset();
 
     printer.on('ready', function(){
 
-        console.info('printer ready!');
-
         printer
-            .printLine(' ')
+            .printLine('Poem')
             .printLine('^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^')
             .lineFeed(1)
             .printLine(poem.lines[0])
             .printLine(poem.lines[1])
             .printLine(poem.lines[2])
             .lineFeed(1)
+            .printLine(poem.author)
             .printLine('~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^')
             .lineFeed(3)
             .print(function(){
-                console.info('printer finished!');
+                // console.info('printer finished!');
                 // process.exit();
             });
 
