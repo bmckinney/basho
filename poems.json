@@ -962,6 +962,71 @@
         "corners of this",
         "floating world, swept."
       ]
+    },
+    {
+      "title": "a bee",
+      "author": "Matsuo Basho",
+      "lines": ["A bee", "staggers out", "of the peony."]
+    },
+    {
+      "title": "a caterpillar",
+      "author": "Matsuo Basho",
+      "lines": ["A caterpillar", "this deep in fall--", "still not a butterfly."]
+    },
+     {
+      "title": "a cicada shell",
+      "author": "Matsuo Basho",
+      "lines": ["A cicada shell;", "it sang itself", "utterly away."]
+    },
+     {
+      "title": "a cool fall night",
+      "author": "Matsuo Basho",
+      "lines": ["A cool fall night--", "getting dinner, we peeled", "eggplants, cucumbers."]
+    },
+     {
+      "title": "awake at night",
+      "author": "Matsuo Basho",
+      "lines": ["Awake at night", "the sound of the water jar", "cracking in the cold."]
+    },
+     {
+      "title": "winter garden",
+      "author": "Matsuo Basho",
+      "lines": ["Winter garden", "the moon thinned to a thread", "insects singing."]
+    },
+     {
+      "title": "spring rain",
+      "author": "Matsuo Basho",
+      "lines": ["Spring rain", "leaking through the roof", "dripping from the wasp's nest."]
+    },
+     {
+      "title": "autumn moonlight",
+      "author": "Matsuo Basho",
+      "lines": ["Autumn moonlight--", "a worm digs silently", "into the chestnut."]
+    },
+     {
+      "title": "winter solitude",
+      "author": "Matsuo Basho",
+      "lines": ["Winter solitude", "in a world of one color", "the sound of wind."]
+    },
+     {
+      "title": "the oak tree",
+      "author": "Matsuo Basho",
+      "lines": ["The oak tree:", "not interested", "in cherry blossoms."]
+    },
+     {
+      "title": "first day of spring",
+      "author": "Matsuo Basho",
+      "lines": ["First day of spring--", "I keep thinking about", "the end of autumn."]
+    },
+     {
+      "title": "first snow",
+      "author": "Matsuo Basho",
+      "lines": ["First snow", "falling", "on the half-finished bridge."]
+    },
+     {
+      "title": "the dragonfly",
+      "author": "Matsuo Basho",
+      "lines": ["The dragonfly", "can't quite land", "on that blade of grass."]
     }
   ]
 }
