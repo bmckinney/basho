@@ -4,9 +4,9 @@ random poem printer using tessel2 + thermal printer
 
 ![](docs/random-haiku.gif)
 
-![](docs/front.jpg)
+![](docs/front.png)
 
-![](docs/back.jpg)
+![](docs/back.png)
 
 ## components
 
