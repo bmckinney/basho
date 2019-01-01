@@ -1,6 +1,7 @@
 var tessel = require('tessel');
 var jsonfile = require( 'jsonfile' );
-var rando = require('random-number-in-range')
+var rando = require('random-number-in-range');
+var fs = require('fs');
 var path = require( 'path' );
 var thermalprinter = require('tessel-thermalprinter');
 
@@ -8,7 +9,11 @@ var button;
 var bounce;
 var pressed = false;
 var printer;
-var config = jsonfile.readFileSync( path.join( __dirname, 'poems.json' ) );
+// var config = jsonfile.readFileSync( path.join( __dirname, 'poems.json' ) );
+
+// usb storage
+var mountPoint = '/mnt/sda1';
+var config = jsonfile.readFileSync( path.join( mountPoint, 'poems.json' ) );
 
 if ('undefined' !== typeof tessel.port) {
     button = tessel.port.B.pin[7];
