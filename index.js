@@ -26,7 +26,7 @@ if ('undefined' !== typeof tessel.port) {
                 // up (off)
                 if (value === 0) {
                     pressed = false;
-                // down (on)
+                    // down (on)
                 } else if (value === 1) {
                     // only fire press once
                     if (!pressed) {
