@@ -3,17 +3,18 @@ var jsonfile = require( 'jsonfile' );
 var rando = require('random-number-in-range');
 var fs = require('fs');
 var path = require( 'path' );
-var thermalprinter = require('tessel-thermalprinter');
+
+const Printer = require('./printer.js');
+const printer = new Printer({ heatingTime: 120, heatingInterval: 3 });
 
 var button;
 var bounce;
 var pressed = false;
-var printer;
-// var config = jsonfile.readFileSync( path.join( __dirname, 'poems.json' ) );
+var config = jsonfile.readFileSync( path.join( __dirname, 'waits.json' ) );
 
 // usb storage
-var mountPoint = '/mnt/sda1';
-var config = jsonfile.readFileSync( path.join( mountPoint, 'poems.json' ) );
+// var mountPoint = '/mnt/sda1';
+//var config = jsonfile.readFileSync( path.join( mountPoint, 'poems.json' ) );
 
 if ('undefined' !== typeof tessel.port) {
     button = tessel.port.B.pin[7];
@@ -31,7 +32,7 @@ if ('undefined' !== typeof tessel.port) {
                     // only fire press once
                     if (!pressed) {
                         pressed = true;
-                        p = randomPoem();
+                        p = randomItem();
                         print(p);
                     }
                 }
@@ -40,34 +41,53 @@ if ('undefined' !== typeof tessel.port) {
     }
 }
 
-function randomPoem() {
-    var poemCount = config.poems.length;
-    var randomPoem = rando(1, poemCount);
-    return config.poems[randomPoem-1];
+
+function randomItem() {
+    var itemCount = config.items.length;
+    var randomItem = rando(1, itemCount);
+    return config.items[randomItem-1];
 }
 
-function print(poem) {
+function print(item, title) {
 
-    printer = thermalprinter.use(tessel.port.A);
-
-    printer.on('ready', function(){
-
-        printer
-            .printLine('Poem')
-            .printLine('^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^')
-            .lineFeed(1)
-            .printLine(poem.lines[0])
-            .printLine(poem.lines[1])
-            .printLine(poem.lines[2])
-            .lineFeed(1)
-            .printLine(poem.author)
-            .printLine('~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^')
-            .lineFeed(3)
-            .print(function(){
-                // console.info('printer finished!');
-                // process.exit();
-            });
-
-    });
+    printer
+        .init(tessel.port['A'])
+        .then(() => {
+            if ('undefined' !== typeof title) {
+                return printer.writeLine(title);
+            }
+        })
+        .then(() => {
+            return printer
+                .writeLine('^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^');
+        })
+        .then(() => {
+                for (var i = 0; i < item.lines.length; i++) {
+                    console.log(item.lines[i]);
+                    printer.writeLine(item.lines[i]);
+                }
+        })
+        .then(() => {
+            if ('undefined' !== typeof item.title) {
+                printer.lineFeed(1);
+                printer.writeLine(item.title);
+            }
+        })
+        .then(() => {
+            return printer
+                .writeLine('^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^');
+        })
+        .then(() => {
+            return printer.lineFeed(3);
+        })
+        .then(() => {
+            return printer.print();
+        })
+        .then(printer => {
+            console.log('printing done');
+        })
+        .catch(error => {
+            console.error(error);
+        });
 
 }

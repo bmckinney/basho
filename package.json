@@ -1,22 +1,23 @@
 {
   "name": "basho",
-  "version": "0.0.0",
-  "description": "Tessel project",
-  "main": "button.js",
+  "version": "1.0.0",
+  "description": "random poem printer using tessel2 + thermal printer",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "www.github.com/tessel/t2-cli",
+  "repository": "www.github.com/bmckinney/basho",
   "keywords": [
-    "Tessel"
+    "Tessel",
+    "thermal printer"
   ],
   "license": "MIT",
-  "readme": "A bare bones Tessel 2 blinky script.",
   "dependencies": {
+    "async": "^2.5.0",
+    "get-pixels": "^3.3.0",
     "jsonfile": "^5.0.0",
     "random-number-in-range": "^1.0.2",
     "tessel": "^0.3.25",
-    "tessel-gpio-button": "^1.1.1",
-    "tessel-thermalprinter": "^0.3.0"
+    "tessel-gpio-button": "^1.1.1"
   }
 }
