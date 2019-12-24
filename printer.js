@@ -1,3 +1,5 @@
+// https://github.com/xseignard/thermalPrinter/blob/master/src/printer.js
+
 const async = require('async');
 const getPixels = require('get-pixels');
 
@@ -96,12 +98,7 @@ const Printer = class {
         this.write(64);
 
         // set params
-        this.write([27, 55, this.maxPrintingDots, this.heatingTime, this.heatingInterval] );
-        // this.write(27);
-        // this.write(55);
-        // this.write(this.maxPrintingDots);
-        // this.write(this.heatingTime);
-        // this.write(this.heatingInterval);
+        this.write([27, 55, this.maxPrintingDots, this.heatingTime, this.heatingInterval]);
     }
 
     print() {
@@ -135,17 +132,15 @@ const Printer = class {
     write(command) {
         let buffer;
         if (!Buffer.isBuffer(command)) {
-            console.log("not buffer: " + command) ;
             buffer = new Buffer(1);
             buffer.writeUInt8(command, 0);
         } else {
             buffer = command;
         }
-
         this.commands.push(buffer);
     }
 
-    setBold(onOff) {
+    setBig(onOff) {
         if (onOff) {
             this.removePrintMode(56);
         } else {
@@ -153,21 +148,21 @@ const Printer = class {
         }
     }
 
+    setSmall(onOff) {
+        this.write([27, 33, (onOff === true ? 1 : 0)])
+    }
+
     writeLine(text) {
         let _self = this;
-
         const characters = new Buffer.from(text);
-        console.log("text: " + text);
         characters.forEach(function(character) {
             _self.write(character);
         });
-
         this.write(10);
     }
 
     addPrintMode(mode) {
         this.printMode |= mode;
-
         this.write(27);
         this.write(33);
         this.write(this.printMode);
@@ -184,6 +179,10 @@ const Printer = class {
         this.write(27);
         this.write(100);
         this.write(lines);
+    }
+
+    center() {
+        this.write([27, 97, 1])
     }
 
     writeImage(path) {

@@ -62,14 +62,16 @@ function print(item, title) {
                 .writeLine('^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^');
         })
         .then(() => {
-                for (var i = 0; i < item.lines.length; i++) {
-                    console.log(item.lines[i]);
-                    printer.writeLine(item.lines[i]);
-                }
+            printer.center();
+            for (var i = 0; i < item.lines.length; i++) {
+                // console.log(item.lines[i]);
+                printer.writeLine(item.lines[i]);
+            }
         })
         .then(() => {
             if ('undefined' !== typeof item.title) {
                 printer.lineFeed(1);
+                printer.setSmall(true);
                 printer.writeLine(item.title);
             }
         })
@@ -84,7 +86,7 @@ function print(item, title) {
             return printer.print();
         })
         .then(printer => {
-            console.log('printing done');
+            // console.log('printing done');
         })
         .catch(error => {
             console.error(error);
