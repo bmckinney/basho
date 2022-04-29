@@ -13,7 +13,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "async": "^2.5.0",
+    "async": "^2.6.4",
     "get-pixels": "^3.3.0",
     "jsonfile": "^5.0.0",
     "random-number-in-range": "^1.0.2",
